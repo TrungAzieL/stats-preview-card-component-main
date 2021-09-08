@@ -1,0 +1,60 @@
+@media screen and (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    body {
+        height: unset;
+    }
+    .card {
+        flex-direction: column-reverse;
+        margin: 80px 0;
+        max-width: 87%;
+        max-height: unset;
+        border-radius: 8px;
+    }
+
+    .card__infomation {
+        padding: 32px;
+        text-align: center;
+    }
+
+    .card__infomation > * {
+        padding: 0;
+    }
+
+    .card__infomation__title {
+        font-size: 1.8em;
+        margin-bottom: 16px;
+    }
+
+    .card__infomation__desc {
+        font-size: 1em;
+        line-height: 1.7em;
+        margin-bottom: 40px;
+    }
+
+    .card__infomation__number {
+        flex-direction: column;
+    }
+
+    .card__infomation__number__item {
+        margin: 16px 0;
+        font-size: 0.8em;
+    }
+
+    .card__infomation__number__item > span {
+        font-size: 1.5rem;
+    }
+
+    .card__image__img {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
